@@ -1,0 +1,128 @@
+.page {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16;
+}
+
+.header-wrapper {
+    padding-top: 29px;
+    background-color: #f6f2f2;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 1249px;
+    min-height: 89px;
+    margin: 0 auto;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+
+.site-menu {
+    margin-left: -32px;
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.menu-list > li {
+    display: flex;
+    min-height: 89px;
+
+}
+
+.menu-link {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #e0e0e0;
+}
+
+.menu-link:hover {
+    background-color: #FF3F40;
+}
+
+.menu-active {
+    background-color: #FF3F40;
+}
+
+/* main */
+/* intro  */
+.intro-wrapper {
+    display: block;
+    width: 100%;
+    padding: 102px 0 110px;
+    background-color: #f6f2f2;
+}
+
+.intro {
+    display: flex;
+    width: 1249px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.intro-info {
+    max-width: 595px;
+}
+
+.intro-heading {
+    font-family: 'Open Sans';
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 800;
+    margin-top: -15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 37px;
+}
+
+.intro-special {
+letter-spacing: 6px;
+}
+.intro-text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 58px;
+}
+
+.intro-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 227px;
+    min-height: 55px;
+    font-family: 'Open Sans';
+    font-size: 18.0412px;
+    font-weight: 700;
+    line-height: 34px;
+    background: #FF2D2D;
+    text-decoration: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffff
+} 
+
+.intro-video {
+    width: 551px;
+    height: 356px;
+    object-fit: cover;
+}
